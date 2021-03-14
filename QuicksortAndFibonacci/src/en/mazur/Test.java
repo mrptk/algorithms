@@ -7,28 +7,6 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println("*******************************************************");
-        System.out.println("********************** FIBONACCI **********************");
-        System.out.println("*******************************************************\n");
-
-        int[] elements = new int[]{
-            5,
-            10,
-            15,
-            20,
-            25,
-            30,
-            35,
-            40,
-            44
-        };
-
-        for (int n : elements){
-            var fiboR = new FibonacciRec(n);
-            var fiboI = new FibonacciIter(n);
-            System.out.println("N: " + n + "\nRecursion: " + fiboR.result() + "\nIteration: " + fiboI.result() + "\n");
-        }
-
-        System.out.println("*******************************************************");
         System.out.println("********************** QUICKSORT **********************");
         System.out.println("*******************************************************\n");
 
